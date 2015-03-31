@@ -1,0 +1,36 @@
+//
+//  situoNews.pch
+//  SituoNews
+//
+//  Created by hwwp on 15-3-21.
+//  Copyright (c) 2015年 思拓. All rights reserved.
+//
+
+#ifndef SituoNews_situoNews_pch
+#define SituoNews_situoNews_pch
+
+#import "LRSliderViewController.h"
+#import "UIViewExt.h"
+#import "CustomLabel.h"
+#import "WebDataService.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "UIView+ViewController.h"
+#import "XRUnderlineButton.h"
+
+/**
+ *  布局类
+ */
+#define kScreenWidth     [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight    [UIScreen mainScreen].bounds.size.height
+
+/**
+ *  本地化
+ */
+#define kFontSize  @"kFontSize"     // 字体的大小
+#define kMyClass   @"kMyClass"      // 我的栏目
+#define kNoMyClass @"kNoMyClass"    // 未添加的栏目
+
+
+
+#endif
